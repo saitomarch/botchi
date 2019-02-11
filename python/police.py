@@ -1,7 +1,7 @@
 # coding: utf-8
+num = 0
 arr = input().split(' ')
-num1 = int(arr[0])
-num2 = int(arr[1])
+for item in arr:
+  num += int(item)
 
-print((num1 + num2) % 10)
-
+print(num % 10)

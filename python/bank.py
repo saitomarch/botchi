@@ -1,8 +1,8 @@
 # coding: utf-8
 balance = int(input())
 withdraw = int(input())
-if withdraw > balance:
+rslt = balance - withdraw
+if rslt < 0:
     print("error")
 else:
-    print(balance - withdraw)
-
+    print(rslt)
